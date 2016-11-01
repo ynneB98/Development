@@ -8,6 +8,10 @@
   <sprites name="sprites"/>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <rooms name="rooms">
+    <room>rooms\rm_DeveloperStart</room>
+    <room>rooms\rm_Start</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
