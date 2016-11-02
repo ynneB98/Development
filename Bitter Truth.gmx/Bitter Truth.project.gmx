@@ -26,9 +26,7 @@
       </scripts>
     </scripts>
   </scripts>
-  <fonts name="fonts">
-    <fonts name="Optionen"/>
-  </fonts>
+  <fonts name="fonts"/>
   <objects name="objects">
     <objects name="Optionen">
       <objects name="Aufloesung">
