@@ -14,6 +14,7 @@
         <sprite>sprites\sp_1366x768</sprite>
         <sprite>sprites\sp_1280x720</sprite>
         <sprite>sprites\sp_800x480</sprite>
+        <sprite>sprites\sp_exit</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -26,7 +27,6 @@
       </scripts>
     </scripts>
   </scripts>
-  <fonts name="fonts"/>
   <objects name="objects">
     <objects name="Optionen">
       <objects name="Aufloesung">
@@ -36,6 +36,7 @@
         <object>objects\ob_1366x768</object>
         <object>objects\ob_1280x720</object>
         <object>objects\ob_800x480</object>
+        <object>objects\ob_exit</object>
       </objects>
     </objects>
   </objects>
