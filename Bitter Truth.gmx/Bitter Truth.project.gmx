@@ -6,6 +6,11 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprites name="MainMenu">
+      <sprite>sprites\sp_gotoOptionen</sprite>
+      <sprite>sprites\sp_Titel</sprite>
+      <sprite>sprites\sp_Quit</sprite>
+    </sprites>
     <sprites name="Optionen">
       <sprites name="Aufloesung">
         <sprite>sprites\sp_1920x1080</sprite>
@@ -14,11 +19,23 @@
         <sprite>sprites\sp_1366x768</sprite>
         <sprite>sprites\sp_1280x720</sprite>
         <sprite>sprites\sp_800x480</sprite>
-        <sprite>sprites\sp_exit</sprite>
+        <sprite>sprites\sp_Back</sprite>
       </sprites>
+      <sprite>sprites\sp_gotoAufloesung</sprite>
+      <sprite>sprites\sp_gotoMainMenu</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <backgrounds name="MainMenu">
+      <background>background\bck_MainMenu</background>
+    </backgrounds>
+    <backgrounds name="Optionen">
+      <backgrounds name="Aufloesung">
+        <background>background\bck_Aufloesung</background>
+      </backgrounds>
+      <background>background\bck_OptionenMain</background>
+    </backgrounds>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="Optionen">
@@ -27,7 +44,19 @@
       </scripts>
     </scripts>
   </scripts>
+  <fonts name="fonts">
+    <fonts name="Optionen">
+      <fonts name="Aufloesung">
+        <font>fonts\fnt_Aufloesung</font>
+      </fonts>
+    </fonts>
+  </fonts>
   <objects name="objects">
+    <objects name="MainMenu">
+      <object>objects\ob_gotoOptionen</object>
+      <object>objects\ob_Quit</object>
+      <object>objects\ob_Titel</object>
+    </objects>
     <objects name="Optionen">
       <objects name="Aufloesung">
         <object>objects\ob_1920x1080</object>
@@ -36,15 +65,22 @@
         <object>objects\ob_1366x768</object>
         <object>objects\ob_1280x720</object>
         <object>objects\ob_800x480</object>
-        <object>objects\ob_exit</object>
+        <object>objects\ob_Back</object>
       </objects>
+      <object>objects\ob_gotoAufloesung</object>
+      <object>objects\ob_gotoMainMenu</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_DeveloperStart</room>
-    <room>rooms\rm_Start</room>
+    <rooms name="MainMenu">
+      <room>rooms\rm_MainMenu</room>
+    </rooms>
     <rooms name="Optionen">
-      <room>rooms\rm_Aufloesung</room>
+      <rooms name="Aufloesung">
+        <room>rooms\rm_Aufloesung</room>
+      </rooms>
+      <room>rooms\rm_Optionen</room>
     </rooms>
   </rooms>
   <help>
