@@ -5,12 +5,46 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprites name="Optionen">
+      <sprites name="Aufloesung">
+        <sprite>sprites\sp_1920x1080</sprite>
+        <sprite>sprites\sp_1600x900</sprite>
+        <sprite>sprites\sp_1400x1050</sprite>
+        <sprite>sprites\sp_1366x768</sprite>
+        <sprite>sprites\sp_1280x720</sprite>
+        <sprite>sprites\sp_800x480</sprite>
+      </sprites>
+    </sprites>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <scripts name="Optionen">
+      <scripts name="Aufloesung">
+        <script>scripts\scr_Aufloesung.gml</script>
+      </scripts>
+    </scripts>
+  </scripts>
+  <fonts name="fonts"/>
+  <objects name="objects">
+    <objects name="Optionen">
+      <objects name="Aufloesung">
+        <object>objects\ob_1920x1080</object>
+        <object>objects\ob_1600x900</object>
+        <object>objects\ob_1400x1050</object>
+        <object>objects\ob_1366x768</object>
+        <object>objects\ob_1280x720</object>
+        <object>objects\ob_800x480</object>
+      </objects>
+    </objects>
+  </objects>
   <rooms name="rooms">
     <room>rooms\rm_DeveloperStart</room>
     <room>rooms\rm_Start</room>
+    <rooms name="Optionen">
+      <room>rooms\rm_Aufloesung</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
