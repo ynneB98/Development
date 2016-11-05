@@ -7,8 +7,10 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="MainMenu">
+      <sprite>sprites\sp_gotoOptionen_roll</sprite>
       <sprite>sprites\sp_gotoOptionen</sprite>
       <sprite>sprites\sp_Titel</sprite>
+      <sprite>sprites\sp_Quit_roll</sprite>
       <sprite>sprites\sp_Quit</sprite>
     </sprites>
     <sprites name="Optionen">
