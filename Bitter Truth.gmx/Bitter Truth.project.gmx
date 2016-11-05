@@ -12,6 +12,7 @@
       <sprite>sprites\sp_Titel</sprite>
       <sprite>sprites\sp_Quit_roll</sprite>
       <sprite>sprites\sp_Quit</sprite>
+      <sprite>sprites\sp_Starten</sprite>
     </sprites>
     <sprites name="Optionen">
       <sprites name="Aufloesung">
@@ -58,6 +59,7 @@
       <object>objects\ob_gotoOptionen</object>
       <object>objects\ob_Quit</object>
       <object>objects\ob_Titel</object>
+      <object>objects\ob_Starten</object>
     </objects>
     <objects name="Optionen">
       <objects name="Aufloesung">
@@ -83,6 +85,9 @@
         <room>rooms\rm_Aufloesung</room>
       </rooms>
       <room>rooms\rm_Optionen</room>
+    </rooms>
+    <rooms name="Startlevel">
+      <room>rooms\rm_Start</room>
     </rooms>
   </rooms>
   <help>
